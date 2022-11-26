@@ -1,0 +1,88 @@
+body 
+{   
+    /*
+    Requirements
+    1. Use Verdana font
+    2. Text color: #008080
+    3. white background
+    */
+	font-style:Verdana;
+    color:#008080;
+	background-color:#ffffff;
+	
+}
+
+#wrapper 
+{
+    /* Requirements
+    1. 95% of window width
+    2. Min width 1000 pixel
+    3. Page Border of 5pixel width, with color code of #006666
+    */
+	width:95%;
+	min-width:1000px;
+    border-style: solid; 
+    border-color: #006666;
+    border-width: 5px;
+    margin: auto;
+}
+
+header {
+    background-color: #006666;
+}
+
+#banner-image {
+    height: 30px;
+    width: 980px;
+    background-color: #006666;
+}
+
+nav ul li
+{
+    list-style-type: none;
+    padding-left: 0;
+    padding-right: 10px;
+}
+.navbar {
+    display: inline-block;
+}
+.mainbody {
+    display: inline-block;
+}
+
+.leftcolumn
+{
+    display: inline-block;
+    width:600px;
+
+}
+.rightcolumn 
+{
+    display: inline-block;
+    width: 630px;
+}
+
+
+td
+{
+    text-align: center;
+    background-color: #66fff6;
+    color: #333;
+}
+
+td a
+{
+    text-decoration: none;
+}
+.image {
+    height: 190px;
+    width: 140px;
+}
+
+footer
+{
+    background-color: #006666;
+    font-size: small;
+    color: white;
+    text-align: center;
+}
