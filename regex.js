@@ -1,12 +1,12 @@
 function chkName() 
 {
-    // 1. Case Insensite
+    // 1. Case Insensitive
     // 2. May include character spaces ('') and/or hyphen ('-').
     // 3, They hyphen symbol should only be preceded by one or more alphabet characters
     // 4. Hyphen should not appear as the first or last character
     var name = document.getElementById("fname").value;
     // matches all cases of A-Z,a-z and it must end with an alphabet
-    var regexp = /^[A-Za-z\-\s]*([A-Za-z\s])$/;
+    var regexp = /^([A-Za-z\s])[A-Za-z\-\s]*([A-Za-z\s])$/;
     if((regexp.test(name)))
     {
         alert("Solid name");
@@ -50,7 +50,7 @@ function chkPassword()
     //3. 8 characters 
     //4. if digits, (?=.*\d)
     var pw = document.getElementById("pw").value;
-    var regexp = /^[A-Z]+(?=.*[a-z])(?=.*[A-Z])(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$/;
+    var regexp = /^([A-Z](?=.*[\w])(?=.*[@$!%*?&]))[A-Za-z\d@$!%*?&]{0,7}$/;
     if((regexp.test(pw)))
     {
         alert("Solid pw");
