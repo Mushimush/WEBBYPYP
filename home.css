@@ -51,14 +51,12 @@ nav ul li
 {
     float: left;
     width:600px;
-    margin-bottom:50px ;
 
 }
 .rightcolumn 
 {
     width: 630px;
     margin-left: 600px;
-    margin-bottom: 50px;
 }
 
 
@@ -81,6 +79,7 @@ td a
 footer
 {
     background-color: #006666;
+    margin-top: 50px;
     font-size: small;
     color: white;
     text-align: center;
