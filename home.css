@@ -46,12 +46,23 @@ nav ul li
 .navbar {
     display: inline-block;
 }
-
+#signup {
+    margin-left: 100px;
+}
 .leftcolumn
 {
     float: left;
     width:600px;
 
+}
+.item{
+    display: flex;
+}
+.itemmargin {
+    margin-left: 20px;
+}
+.dcright {
+    margin-left: 100px;
 }
 .rightcolumn 
 {
