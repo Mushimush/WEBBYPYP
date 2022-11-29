@@ -18,8 +18,8 @@
                 <li class="navbar"><a href="">SEA Map</a></li>
                 <li class="navbar"><a href="">FAQs</a></li>
                 <li class="navbar"><a href="">Contact us</a></li>
-                <li class="navbar" id="signup"><a href="">Sign up | </a></li>
-                <li class="navbar" id="login"><a href="">Log in</a></li>
+                <li class="navbar" id="signup" ><a href="">Sign up | Log in</a></li>
+
             </ul>
         </nav>
         <div class="promotion">
@@ -31,47 +31,47 @@
                     <legend>Air Ticket Search</legend>
 
                     <form method="post" action="ticket_search.php">
-
-                        <div>
-                            <label for="hc">Home Country</label><br>
+                        <div class="item">
+                            <div>
+                                <label for="hc">Home Country</label><br>
+                                <select name="" id="">
+                                <option value="">Select HC</option>
+                                <option value="">Brunei</option>
+                                <option value="">Cambodia</option>
+                                <option value="">Singapore</option>
+                                <option value="">Malaysia</option>
+                                </select>
+                            </div>
+                          <br>
+    
+                          <div class="itemmargin">
+                            <label for="dc">Dest Country</label><br>
                             <select name="" id="">
-                            <option value="">Select HC</option>
+                            <option value="">Select DC</option>
                             <option value="">Brunei</option>
                             <option value="">Cambodia</option>
                             <option value="">Singapore</option>
                             <option value="">Malaysia</option>
                             </select>
+                          </div><br>
                         </div>
-                      <br>
+                        <div class="item">
+                            <div>
+                                Depart Date <br><input type="date" name="" id="">
+                              </div>
+        
+                              <div class="itemmargin">
+                                Return Date <br><input type="date" name="" id="">
+                              </div> <br>
 
-                      <div class="dcright">
-                        <label for="dc">Dest Country</label><br>
-                        <select name="" id="">
-                        <option value="">Select DC</option>
-                        <option value="">Brunei</option>
-                        <option value="">Cambodia</option>
-                        <option value="">Singapore</option>
-                        <option value="">Malaysia</option>
-                        </select>
-                      </div><br>
-
-                      <div>
-                        Depart Date <br><input type="date" name="" id="">
-                      </div>
-
-                      <div class="returndate">
-                        Return Date <br><input type="date" name="" id="">
-                      </div> <br>
-
-                      <label for="numberoftix">Numebr of Tix</label><br>
-                      <select name="" id="">
-                        <option value="">1</option>
-                        <option value="">2</option>
-                      </select><br><br>
-
+                        </div>
+                            <label for="numberoftix">Numebr of Tix</label><br>
+                            <select name="" id="">
+                              <option value="">1</option>
+                              <option value="">2</option>
+                            </select><br><br>
                       <input type="button" value="Search"> &nbsp &nbsp
                       <input type="button" value="Clear">
-    
                     </form>
                 </fieldset>
             <br>
